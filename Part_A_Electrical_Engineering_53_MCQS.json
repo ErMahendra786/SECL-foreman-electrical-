@@ -1,5 +1,5 @@
 {
-  "Part_A_Electrical_Engineering_80_MCQS": [
+  "Test-1": [
     {
       "question": "1. If a DC series motor is started on no-load, what is the most likely outcome?",
       "options": [
@@ -744,10 +744,7 @@
       "options": ["50-60%", "70-80%", "95-99%", "100%"],
       "correct_answer": "95-99%",
       "explanation": "Transformers have no moving parts and very low losses, making them highly efficient."
-    }
-
-  {
-  "Part_B_General_Knowledge_and_Awareness_20_MCQS": [
+    },
     {
       "question": "81. Which subsidiary of Coal India Limited is the largest coal-producing company in India?",
       "options": ["MCL", "SECL", "NCL", "WCL"],
