@@ -119,6 +119,368 @@
       "options": ["Frequency of current", "Diameter of conductor", "Permeability of material", "All of the above"],
       "answer": 3,
       "explanation": "Skin effect (tendency of AC to flow near the surface) increases with frequency, diameter, and magnetic properties."
+    },
+       {
+      "question": "21. Which type of earthing is most suitable for high-rise buildings and substations?",
+      "options": ["Plate earthing", "Pipe earthing", "Rod earthing", "Strip earthing"],
+      "answer": 0,
+      "explanation": "Plate earthing provides a larger surface area for fault current dissipation, essential for high-capacity installations."
+    },
+    {
+      "question": "22. The power factor of a purely inductive circuit is:",
+      "options": ["Unity", "Zero lagging", "Zero leading", "0.8 lagging"],
+      "answer": 1,
+      "explanation": "In a pure inductor, current lags voltage by exactly 90 degrees; Cos(90°) = 0."
+    },
+    {
+      "question": "23. Which device is used for 'Automatic Voltage Regulation' (AVR) in an alternator?",
+      "options": ["Exciter", "Governor", "Tachometer", "Synchronoscope"],
+      "answer": 0,
+      "explanation": "The exciter controls the field current of the alternator, which in turn regulates the output terminal voltage."
+    },
+    {
+      "question": "24. In the context of Mining, what does 'FLP' stand for regarding electrical equipment?",
+      "options": ["Full Load Flame Proof", "Flame Proof Light Fitting", "Flame Proof Enclosure", "Flexible Lighting For Production"],
+      "answer": 2,
+      "explanation": "Flameproof Enclosures (FLP) are designed to withstand an internal explosion without igniting the external hazardous atmosphere (methane/coal dust)."
+    },
+    {
+      "question": "25. The speed of a DC Shunt Motor can be increased above rated speed by:",
+      "options": ["Increasing armature voltage", "Decreasing field current", "Increasing field current", "Decreasing armature voltage"],
+      "answer": 1,
+      "explanation": "Decreasing field current reduces flux. Since N ∝ 1/Φ, the speed increases above its base value."
+    },
+    {
+      "question": "26. What is the unit of Luminous Intensity?",
+      "options": ["Lux", "Lumen", "Candela", "Watt"],
+      "answer": 2,
+      "explanation": "Candela is the SI unit for luminous intensity; Lux is for illuminance and Lumen is for luminous flux."
+    },
+    {
+      "question": "27. In a synchronous motor, 'V-curves' show the relationship between:",
+      "options": ["Armature current and Field current", "Power factor and Field current", "Speed and Load", "Torque and Speed"],
+      "answer": 0,
+      "explanation": "V-curves plot Armature Current (Ia) vs Field Current (If). Inverted V-curves show Power Factor vs Field Current."
+    },
+    {
+      "question": "28. Which protection relay works on the principle of the vector difference between incoming and outgoing current?",
+      "options": ["Overcurrent relay", "Differential relay", "Distance relay", "Under-voltage relay"],
+      "answer": 1,
+      "explanation": "Differential relays trip when the current entering the protected zone is not equal to the current leaving it (indicating an internal fault)."
+    },
+    {
+      "question": "29. For charging a Lead-Acid battery, which DC supply is required?",
+      "options": ["Variable DC", "Constant DC", "Pulsating DC", "AC can be used directly"],
+      "answer": 1,
+      "explanation": "Batteries require a constant DC voltage/current source for the electrochemical charging process."
+    },
+    {
+      "question": "30. A 4-pole, 3-phase induction motor operates on 50Hz. Its synchronous speed is:",
+      "options": ["1000 RPM", "1500 RPM", "3000 RPM", "750 RPM"],
+      "answer": 1,
+      "explanation": "Ns = (120 × f) / P = (120 × 50) / 4 = 1500 RPM."
+    },
+    {
+      "question": "31. 'Corona effect' in transmission lines is usually visible by:",
+      "options": ["Red glow", "Violet glow and hissing noise", "Yellow sparks", "Green smoke"],
+      "answer": 1,
+      "explanation": "Corona is the ionization of air around a conductor at high voltage, producing a faint violet light and a characteristic buzzing sound."
+    },
+    {
+      "question": "32. In a semiconductor, the gap between the Valence band and Conduction band is called:",
+      "options": ["Forbidden energy gap", "Active gap", "Resonance gap", "Junction barrier"],
+      "answer": 0,
+      "explanation": "The forbidden energy gap determines how much energy is needed to move an electron from the valence to the conduction band."
+    },
+    {
+      "question": "33. Which test is used to determine the efficiency and temperature rise of two identical transformers simultaneously?",
+      "options": ["OC Test", "SC Test", "Sumpner's Test (Back-to-Back)", "Continuity Test"],
+      "answer": 2,
+      "explanation": "Sumpner's test allows full-load testing of transformers without needing a full-load power source, measuring total losses and heat."
+    },
+    {
+      "question": "34. What is the color of dry Silica Gel in a transformer breather?",
+      "options": ["Pink", "Blue", "Yellow", "White"],
+      "answer": 1,
+      "explanation": "Dry (active) silica gel is blue; it turns pink when it has absorbed moisture and needs replacement or reactivation."
+    },
+    {
+      "question": "35. A 'Step-up Transformer' increases:",
+      "options": ["Power", "Frequency", "Voltage", "Current"],
+      "answer": 2,
+      "explanation": "By having more turns in the secondary than the primary, voltage is increased (and current is decreased proportionally)."
+    },
+    {
+      "question": "36. Which of the following is a 'Lagging' load?",
+      "options": ["Incandescent lamp", "Pure Capacitor", "Induction Motor", "Synchronous Motor (over-excited)"],
+      "answer": 2,
+      "explanation": "Induction motors are inductive loads that cause current to lag behind voltage, resulting in a lagging power factor."
+    },
+    {
+      "question": "37. To protect a 3-phase induction motor against single-phasing, we use:",
+      "options": ["Thermal Overload Relay with single-phase preventer", "HRC Fuse", "Isolator", "Star-Delta Starter only"],
+      "answer": 0,
+      "explanation": "Single-phase preventers detect the loss of one phase and trip the motor to prevent winding burnout."
+    },
+    {
+      "question": "38. The distance between two poles in an overhead line is called:",
+      "options": ["Sag", "Span", "Clearance", "Jump"],
+      "answer": 1,
+      "explanation": "Span is the horizontal distance between two consecutive supports (poles/towers)."
+    },
+    {
+      "question": "39. What is the function of the 'Yoke' in a DC machine?",
+      "options": ["To provide mechanical protection", "To provide a path for magnetic flux", "To hold the field poles", "All of the above"],
+      "answer": 3,
+      "explanation": "The yoke acts as the frame for protection and completes the magnetic circuit."
+    },
+    {
+      "question": "40. If the power factor of a circuit is 0.8, the reactive power is ___ if the apparent power is 100 kVA.",
+      "options": ["80 kVAR", "60 kVAR", "100 kVAR", "20 kVAR"],
+      "answer": 1,
+      "explanation": "If CosΦ = 0.8, then SinΦ = 0.6. Reactive Power (Q) = S × SinΦ = 100 × 0.6 = 60 kVAR."
+    },
+    
+     {
+      "question": "41. Which D.C. generator has the best voltage regulation?",
+      "options": ["Series generator", "Shunt generator", "Flat-compound generator", "Over-compound generator"],
+      "answer": 2,
+      "explanation": "A flat-compound generator is designed so that its terminal voltage at full-load is equal to its no-load voltage."
+    },
+    {
+      "question": "42. The rating of a Circuit Breaker is usually expressed in:",
+      "options": ["Amperes", "Volts", "MVA", "Watts"],
+      "answer": 2,
+      "explanation": "Circuit breakers are rated by their breaking capacity, often expressed in MVA or kA at a specific voltage."
+    },
+    {
+      "question": "43. The 'Mercury Vapor Lamp' gives light of which color?",
+      "options": ["Yellow", "Greenish-blue", "Pink", "White"],
+      "answer": 1,
+      "explanation": "Mercury vapor lamps produce light predominantly in the blue/green spectrum."
+    },
+    {
+      "question": "44. In a DC series motor, the torque developed is proportional to:",
+      "options": ["Ia", "Ia²", "√Ia", "1/Ia"],
+      "answer": 1,
+      "explanation": "Before magnetic saturation, T ∝ Φ × Ia. In series motors, Φ ∝ Ia, so T ∝ Ia²."
+    },
+    {
+      "question": "45. Which instrument can measure both AC and DC current without breaking the circuit?",
+      "options": ["Moving Iron Ammeter", "Moving Coil Ammeter", "Tongue Tester (Clamp Meter)", "Wattmeter"],
+      "answer": 2,
+      "explanation": "A clamp meter uses a current transformer (for AC) or Hall effect sensor (for DC) to measure current via the magnetic field."
+    },
+    {
+      "question": "46. What is the 'Full-charge' voltage of a single cell of a Lead-Acid battery?",
+      "options": ["1.2V", "1.5V", "2.2V", "3.0V"],
+      "answer": 2,
+      "explanation": "A fully charged lead-acid cell typically shows around 2.1 to 2.2 Volts."
+    },
+    {
+      "question": "47. 'Gully' or 'Cradle' guarding is used in overhead lines to:",
+      "options": ["Support the conductor", "Capture a broken conductor and ground it", "Prevent corona", "Reduce sag"],
+      "answer": 1,
+      "explanation": "Guarding is a safety feature placed under lines where they cross roads or other lines."
+    },
+    {
+      "question": "48. The speed of an Induction Motor is controlled by changing:",
+      "options": ["Number of poles", "Supply frequency", "Rotor resistance (for slip-ring)", "All of the above"],
+      "answer": 3,
+      "explanation": "All listed methods are standard ways to vary the speed of an induction motor."
+    },
+    {
+      "question": "49. Which of the following relays is used for the protection of long-distance transmission lines?",
+      "options": ["Overcurrent relay", "Mho relay (Distance relay)", "Differential relay", "Buchholz relay"],
+      "answer": 1,
+      "explanation": "Distance (Impedance/Mho) relays are preferred for long lines as they are less affected by power swings."
+    },
+    {
+      "question": "50. In a pure capacitor, the current ___ the voltage by 90 degrees.",
+      "options": ["Lags", "Leads", "Is in phase with", "Lags by 45 degrees"],
+      "answer": 1,
+      "explanation": "In capacitive circuits, the voltage builds up after the current begins to flow; hence current leads voltage."
+    },
+    {
+      "question": "51. What is the unit of Magnetic Flux?",
+      "options": ["Tesla", "Weber", "Ampere-turn", "Henry"],
+      "answer": 1,
+      "explanation": "Weber (Wb) is the unit of flux; Tesla (T) is the unit of flux density."
+    },
+    {
+      "question": "52. The 'Back EMF' of a DC motor:",
+      "options": ["Opposes the supply voltage", "Aids the supply voltage", "Is zero at full speed", "Is always greater than supply voltage"],
+      "answer": 0,
+      "explanation": "According to Lenz's law, the induced EMF (Back EMF) acts in a direction that opposes the applied voltage."
+    },
+    {
+      "question": "53. A 3-phase Delta connected load has a line current of 30A. What is the phase current?",
+      "options": ["30A", "17.32A", "51.96A", "10A"],
+      "answer": 1,
+      "explanation": "In Delta: I_phase = I_line / √3 = 30 / 1.732 ≈ 17.32 A."
+    },
+    {
+      "question": "54. Which part of the transformer oil testing involves checking the 'Dielectric Strength'?",
+      "options": ["Flash point test", "Acidity test", "BDV (Break Down Voltage) test", "Sludge test"],
+      "answer": 2,
+      "explanation": "The BDV test measures the maximum voltage the oil can withstand without sparking, indicating its insulation quality."
+    },
+    {
+      "question": "55. The 'Dampers' in a synchronous motor are used to:",
+      "options": ["Increase speed", "Prevent hunting", "Cool the motor", "Reduce noise"],
+      "answer": 1,
+      "explanation": "Damper windings provide a damping torque to suppress oscillations (hunting) of the rotor when load changes abruptly."
+    },
+    {
+      "question": "56. Which power plant has the highest initial cost and lowest running cost?",
+      "options": ["Thermal Power Plant", "Hydroelectric Power Plant", "Diesel Power Plant", "Gas Turbine Plant"],
+      "answer": 1,
+      "explanation": "Dams are expensive to build, but the 'fuel' (water) is free, leading to very low operating costs."
+    },
+    {
+      "question": "57. What is the effect of 'Power Factor' on the cost of electricity (Tariff)?",
+      "options": ["Low PF reduces energy bill", "Low PF leads to penalties in industrial tariffs", "High PF leads to penalties", "PF does not affect the bill"],
+      "answer": 1,
+      "explanation": "Low power factor increases the current required for the same power, putting stress on the grid; utilities penalize this."
+    },
+    {
+      "question": "58. For the protection of the 'Alternator Stator' against internal phase-to-phase faults, which system is used?",
+      "options": ["Merz-Price Circulating Current system", "Buchholz Relay", "Over-speed trip", "Reverse power relay"],
+      "answer": 0,
+      "explanation": "This is a differential protection scheme specifically for generator and transformer windings."
+    },
+    {
+      "question": "59. 'Diversity Factor' is defined as the ratio of:",
+      "options": ["Sum of individual max demands / Max demand of the system", "Average load / Max demand", "Installed capacity / Max demand", "Peak load / Average load"],
+      "answer": 0,
+      "explanation": "Diversity factor is always greater than 1 and helps in sizing the supply equipment efficiently."
+    },
+    {
+      "question": "60. Which semiconductor device acts like a 'Voltage Controlled Switch'?",
+      "options": ["BJT", "FET/MOSFET", "Diode", "Resistor"],
+      "answer": 1,
+      "explanation": "MOSFETs are voltage-controlled devices, whereas BJTs are current-controlled."
+    },
+        {
+      "question": "61. The standard color for 'Earth' wire in modern Indian household wiring is:",
+      "options": ["Red", "Black", "Green or Green-Yellow", "Blue"],
+      "answer": 2,
+      "explanation": "As per IS codes, Green or Green-Yellow is used for earthing, Red/Yellow/Blue for phases, and Black for neutral."
+    },
+    {
+      "question": "62. What is the value of 'Root Mean Square' (RMS) for a peak voltage Vm?",
+      "options": ["0.637 Vm", "0.707 Vm", "Vm / √3", "1.414 Vm"],
+      "answer": 1,
+      "explanation": "RMS = Vm / √2 ≈ 0.707 Vm."
+    },
+    {
+      "question": "63. 'Step Potential' and 'Touch Potential' are terms associated with:",
+      "options": ["Battery charging", "Substation Earthing", "Motor starting", "HT cable jointing"],
+      "answer": 1,
+      "explanation": "These potentials must be limited during a fault to prevent electrocuting anyone standing near or touching substation equipment."
+    },
+    {
+      "question": "64. Which of the following is a 'Primary Cell'?",
+      "options": ["Lead-Acid cell", "Lithium-Ion cell", "Zinc-Carbon cell", "Nickel-Cadmium cell"],
+      "answer": 2,
+      "explanation": "Primary cells are non-rechargeable (Zinc-Carbon); secondary cells are rechargeable."
+    },
+    {
+      "question": "65. A multimeter cannot measure:",
+      "options": ["Voltage", "Current", "Resistance", "Phase Angle"],
+      "answer": 3,
+      "explanation": "Standard multimeters measure V, I, and R. Phase angle requires an oscilloscope or a power factor meter."
+    },
+    {
+      "question": "66. In a DC machine, the 'Armature Reaction' causes:",
+      "options": ["Cross-magnetizing effect", "Demagnetizing effect", "Weakening of main flux", "All of the above"],
+      "answer": 3,
+      "explanation": "Armature reaction distorts (cross-magnetizes) and weakens (demagnetizes) the main field flux."
+    },
+    {
+      "question": "67. Which type of connection is used in a distribution transformer (at the consumer end)?",
+      "options": ["Star-Star", "Delta-Delta", "Delta-Star", "Star-Delta"],
+      "answer": 2,
+      "explanation": "Delta-Star is used to provide a neutral wire for single-phase consumer loads."
+    },
+    {
+      "question": "68. 'Hunting' in synchronous motors is minimized by using:",
+      "options": ["Flywheels", "Damper windings", "Better lubrication", "Increasing supply frequency"],
+      "answer": 1,
+      "explanation": "Damper windings produce induction torque that opposes the oscillatory motion of the rotor."
+    },
+    {
+      "question": "69. In an 11kV cable, the 'Grading' of the cable is done to:",
+      "options": ["Reduce the cost", "Achieve uniform electrostatic stress", "Increase the current capacity", "Decrease the weight"],
+      "answer": 1,
+      "explanation": "Grading layers the insulation so that the electrical stress is distributed more evenly from the conductor to the sheath."
+    },
+    {
+      "question": "70. What does 'IP65' rating indicate for an electrical motor?",
+      "options": ["High efficiency", "Dust tight and protected against water jets", "Flame proof for mines", "Voltage rating 650V"],
+      "answer": 1,
+      "explanation": "IP (Ingress Protection) ratings define how well the enclosure protects against solids and liquids."
+    },
+    {
+      "question": "71. Which component is used to limit the starting current of a large DC motor?",
+      "options": ["Series Capacitor", "Variable Resistor (Starter)", "Choke", "Transformer"],
+      "answer": 1,
+      "explanation": "A starter adds resistance in series with the armature to limit current until back-EMF builds up."
+    },
+    {
+      "question": "72. What is the unit of 'Permeability'?",
+      "options": ["Ampere/meter", "Henry/meter", "Weber/meter", "Tesla/meter"],
+      "answer": 1,
+      "explanation": "Permeability (μ) is measured in Henrys per meter (H/m)."
+    },
+    {
+      "question": "73. In a pure resistive circuit, the power factor is:",
+      "options": ["Zero", "0.5 lagging", "Unity", "0.8 leading"],
+      "answer": 2,
+      "explanation": "In a resistor, voltage and current are in phase; Cos(0) = 1 (Unity)."
+    },
+    {
+      "question": "74. Which gas is produced during the charging of a Lead-Acid battery?",
+      "options": ["Oxygen and Hydrogen", "Methane", "Carbon Monoxide", "Nitrogen"],
+      "answer": 0,
+      "explanation": "Electrolysis of the water in the electrolyte releases hydrogen and oxygen, which is why batteries must be kept in ventilated areas."
+    },
+    {
+      "question": "75. 'ACSR' conductors stand for:",
+      "options": ["All Copper Steel Reinforced", "Aluminum Conductor Steel Reinforced", "Aluminum Copper Standard Relay", "All Carbon Steel Rod"],
+      "answer": 1,
+      "explanation": "ACSR uses aluminum strands for conductivity and a steel core for mechanical strength in overhead lines."
+    },
+    {
+      "question": "76. The 'Secondary' of a Current Transformer (CT) should never be:",
+      "options": ["Short circuited", "Open circuited", "Grounded", "Connected to an ammeter"],
+      "answer": 1,
+      "explanation": "If the secondary is opened while the primary is live, a dangerously high voltage is induced that can destroy the insulation and kill the operator."
+    },
+    {
+      "question": "77. For an 11kV substation, the lightning arrestor is installed:",
+      "options": ["Near the transformer", "Near the entry of the line", "On the neutral wire", "Both A and B"],
+      "answer": 3,
+      "explanation": "LAs are placed where the line enters the substation and close to expensive equipment like transformers."
+    },
+    {
+      "question": "78. In a 3-phase alternator, the 'Pitch Factor' is used to reduce:",
+      "options": ["Copper loss", "Iron loss", "Harmonics in generated EMF", "Armature reaction"],
+      "answer": 2,
+      "explanation": "Short-pitching the windings helps eliminate specific higher-order harmonics, making the output more sinusoidal."
+    },
+    {
+      "question": "79. Which instrument is used to measure the 'Speed' of a motor?",
+      "options": ["Anemometer", "Tachometer", "Hydrometer", "Fluxmeter"],
+      "answer": 1,
+      "explanation": "A tachometer measures revolutions per minute (RPM)."
+    },
+    {
+      "question": "80. What is the efficiency of a typical large Power Transformer?",
+      "options": ["50-60%", "70-80%", "95-99%", "100%"],
+      "answer": 2,
+      "explanation": "Transformers have no moving parts and very low losses, making them highly efficient."
     }
   ]
 }
+
