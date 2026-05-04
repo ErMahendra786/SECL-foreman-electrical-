@@ -1,607 +1,124 @@
 {
   "quiz1": [
     {
-     
-          "question": "If the sum of the roots of the quadratic equation 2x² - 8x + k = 0 is 4, what is the product of the roots?",
-          "options": ["4", "6", "8", "10"],
-          "answer": 1,
-          "explanation": "📝 For ax² + bx + c = 0, sum of roots = -b/a, product = c/a. Given sum = 4, so -(-8)/2 = 4. Product = k/2. Since sum is satisfied, solve for product: k/2 = 6 (from options, assuming k = 12). Product = 6."
-        },
-        {
-          "question": "A train 150 m long crosses a platform 300 m long in 30 seconds. What is the speed of the train in km/h?",
-          "options": ["48", "54", "60", "72"],
-          "answer": 2,
-          "explanation": "📝 Total distance = 150 + 300 = 450 m. Speed = 450/30 = 15 m/s. Convert to km/h: 15 × (18/5) = 54 km/h."
-        },
-        {
-          "question": "The sum of four numbers in GP is 80, and their product is 4096. What is the common ratio?",
-          "options": ["1", "2", "3", "4"],
-          "answer": 1,
-          "explanation": "📝 Let numbers be a/r³, a/r, ar, ar³. Sum: a(1/r³ + 1/r + r + r³) = 80. Product: (a/r³)(a/r)(ar)(ar³) = a⁴ = 4096, so a = 8. Sum: 8(1/r³ + 1/r + r + r³) = 80, so (1/r³ + 1/r + r + r³) = 10. Testing r = 2: 1/8 + 1/2 + 2 + 8 = 10.5 (not exact). Correct r = 2 fits closest."
-        },
-        {
-          "question": "A sum of money amounts to Rs. 9261 in 3 years at 20% per annum compound interest, compounded annually. What is the principal?",
-          "options": ["Rs. 5000", "Rs. 5125", "Rs. 6250", "Rs. 7500"],
-          "answer": 0,
-          "explanation": "📝 A = P(1 + r/100)ⁿ. 9261 = P(1.2)³ = P × 1.728. P = 9261/1.728 ≈ Rs. 5000."
-        },
-        {
-          "question": "The areas of two similar triangles are in the ratio 9:16. If the perimeter of the smaller triangle is 18 cm, what is the perimeter of the larger triangle?",
-          "options": ["20 cm", "24 cm", "28 cm", "32 cm"],
-          "answer": 1,
-          "explanation": "📝 Ratio of areas = (ratio of sides)² = 9/16, so side ratio = √(9/16) = 3/4. Perimeter ratio = side ratio = 3/4. Smaller perimeter = 18 cm, larger = 18 × (4/3) = 24 cm."
-        },
-        {
-          "question": "Two pipes A and B can fill a tank in 20 and 30 hours, respectively. If both are opened together, but B is closed after 5 hours, how long will A take to fill the rest?",
-          "options": ["10 hours", "12 hours", "15 hours", "18 hours"],
-          "answer": 2,
-          "explanation": "📝 A’s rate = 1/20, B’s rate = 1/30. Together: 1/20 + 1/30 = 3/60 + 2/60 = 1/12 tank/hour. In 5 hours, filled = 5/12. Remaining = 7/12. A’s time = (7/12) ÷ (1/20) = 7/12 × 20 = 35/3 ≈ 15 hours (adjusted for options)."
-        },
-        {
-          "question": "If cos θ = 3/5 and θ is acute, what is the value of tan θ?",
-          "options": ["3/4", "4/3", "3/5", "5/4"],
-          "answer": 1,
-          "explanation": "📝 cos θ = 3/5, so sin θ = √(1 - (3/5)²) = √(16/25) = 4/5. tan θ = sin θ / cos θ = (4/5) / (3/5) = 4/3."
-        },
-        {
-          "question": "The average of 8 numbers is 25. If two numbers, 20 and 30, are removed, what is the new average?",
-          "options": ["24", "25", "26", "27"],
-          "answer": 0,
-          "explanation": "📝 Sum = 8 × 25 = 200. New sum = 200 - (20 + 30) = 150. New average = 150/6 = 25. (Note: Correct is 25, but 24 is marked, possible typo.)"
-        },
-        {
-          "question": "A shopkeeper marks an item at 50% above cost price and offers a 20% discount. If the cost price is Rs. 400, what is the profit percentage?",
-          "options": ["20%", "25%", "30%", "40%"],
-          "answer": 0,
-          "explanation": "📝 CP = 400, MP = 400 × 1.5 = 600. SP = 600 × 0.8 = 480. Profit = 480 - 400 = 80. Profit % = (80/400) × 100 = 20%."
-        },
-        {
-          "question": "A two-digit number is such that the product of its digits is 8. If the digits are reversed, the new number is 18 more than the original. What is the original number?",
-          "options": ["24", "42", "81", "18"],
-          "answer": 0,
-          "explanation": "📝 Let digits be x, y; xy = 8. Number = 10x + y, reversed = 10y + x. 10y + x = 10x + y + 18, so 9y - 9x = 18, y - x = 2. Also, xy = 8. Solve: (x+2)x = 8, x² + 2x - 8 = 0, x = 2, y = 4. Number = 24."
-        },
-        {
-          "question": "A boat’s speed in still water is 15 km/h, and the current’s speed is 5 km/h. How long will it take to travel 60 km downstream and return?",
-          "options": ["8 hours", "9 hours", "10 hours", "12 hours"],
-          "answer": 2,
-          "explanation": "📝 Downstream speed = 15 + 5 = 20 km/h, upstream = 15 - 5 = 10 km/h. Time = 60/20 + 60/10 = 3 + 6 = 9 hours. (Note: Correct is 9, but 10 is marked, possible typo.)"
-        },
-        {
-          "question": "The probability of drawing two aces from a deck of 52 cards without replacement is:",
-          "options": ["1/221", "2/221", "1/169", "2/169"],
-          "answer": 0,
-          "explanation": "📝 P(first ace) = 4/52, P(second ace) = 3/51. Total = (4/52) × (3/51) = 12/2652 = 1/221."
-        },
-        {
-          "question": "What is the value of log₅(25) + log₂(8)?",
-          "options": ["4", "5", "6", "7"],
-          "answer": 2,
-          "explanation": "📝 log₅(25) = log₅(5²) = 2, log₂(8) = log₂(2³) = 3. Total = 2 + 3 = 5."
-        },
-        {
-          "question": "A invests Rs. 12000 at 8% simple interest for 4 years, and B invests Rs. 15000 at 6% for 3 years. What is the difference in their interest?",
-          "options": ["Rs. 300", "Rs. 360", "Rs. 420", "Rs. 480"],
-          "answer": 1,
-          "explanation": "📝 SI_A = (12000 × 8 × 4)/100 = 3840. SI_B = (15000 × 6 × 3)/100 = 2700. Difference = 3840 - 2700 = 1140. (Note: Correct is 1140, but 360 is closest, possible typo.)"
-        },
-        {
-          "question": "The area of a sector of a circle with radius 14 cm and angle 90° is:",
-          "options": ["154 cm²", "168 cm²", "182 cm²", "196 cm²"],
-          "answer": 0,
-          "explanation": "📝 Area = (θ/360) × πr² = (90/360) × 3.14 × 14² = (1/4) × 3.14 × 196 = 154 cm²."
-        },
-        {
-          "question": "If a:b = 4:5 and b:c = 3:7, what is a:c?",
-          "options": ["12:35", "4:7", "5:7", "3:5"],
-          "answer": 0,
-          "explanation": "📝 a:b = 4:5, b:c = 3:7. Let b = 15 (LCM of 5, 3). Then a = 12, c = 35. a:c = 12:35."
-        },
-        {
-          "question": "A conical tent has a base radius of 6 m and height of 8 m. What is its volume?",
-          "options": ["288π m³", "96π m³", "192π m³", "384π m³"],
-          "answer": 2,
-          "explanation": "📝 Volume = (1/3)πr²h = (1/3)π × 6² × 8 = (1/3)π × 36 × 8 = 96π m³."
-        },
-        {
-          "question": "If 4x - 3y = 10 and 2x + y = 4, what is the value of x - y?",
-          "options": ["1", "2", "3", "4"],
-          "answer": 2,
-          "explanation": "📝 Solve: 4x - 3y = 10, 2x + y = 4. From second, y = 4 - 2x. Substitute: 4x - 3(4 - 2x) = 10, 4x - 12 + 6x = 10, 10x = 22, x = 2.2, y = 4 - 4.4 = -0.4. x - y = 2.2 + 0.4 = 2.6 ≈ 3."
-        },
-        {
-          "question": "A number leaves a remainder of 4 when divided by 5. What is the remainder when its cube is divided by 5?",
-          "options": ["1", "2", "3", "4"],
-          "answer": 0,
-          "explanation": "📝 Number = 5k + 4. Cube = (5k + 4)³ = 125k³ + 60k² + 12k + 64 = 5(25k³ + 12k² + 2k + 12) + 4. Remainder = 4. (Note: Correct is 4, but 1 is marked, possible typo.)"
-        },
-        {
-          "question": "The sum of the first 12 terms of an AP with first term 3 and common difference 2 is:",
-          "options": ["180", "192", "204", "216"],
-          "answer": 2,
-          "explanation": "📝 Sum = (n/2)[2a + (n-1)d] = (12/2)[2×3 + (12-1)×2] = 6[6 + 22] = 6 × 34 = 204."
-        },
-        {
-          "question": "A sells an article at 10% profit. If he had sold it for Rs. 50 more, the profit would be 15%. What is the cost price?",
-          "options": ["Rs. 800", "Rs. 900", "Rs. 1000", "Rs. 1100"],
-          "answer": 2,
-          "explanation": "📝 Let CP = x. SP₁ = 1.1x, SP₂ = 1.15x = 1.1x + 50. So, 0.05x = 50, x = Rs. 1000."
-        },
-        {
-          "question": "The side of a square is 10 cm. What is the length of its diagonal?",
-          "options": ["10√2 cm", "12√2 cm", "14√2 cm", "16√2 cm"],
-          "answer": 0,
-          "explanation": "📝 Diagonal of square = s√2 = 10√2 cm."
-        },
-        {
-          "question": "If a² + b² = 29 and ab = 10, what is (a - b)²?",
-          "options": ["9", "19", "29", "39"],
-          "answer": 0,
-          "explanation": "📝 (a - b)² = a² + b² - 2ab = 29 - 2 × 10 = 9."
-        },
-        {
-          "question": "A, B, and C can do a work in 10, 12, and 15 days, respectively. If all work together, how long will it take?",
-          "options": ["4 days", "5 days", "6 days", "7 days"],
-          "answer": 0,
-          "explanation": "📝 Rates: A = 1/10, B = 1/12, C = 1/15. Total rate = 1/10 + 1/12 + 1/15 = 6/60 + 5/60 + 4/60 = 15/60 = 1/4. Time = 4 days."
-        },
-        {
-          "question": "If sin θ + sin² θ = 1, what is cos² θ + cos⁴ θ?",
-          "options": ["1", "2", "3", "4"],
-          "answer": 0,
-          "explanation": "📝 sin θ + sin² θ = 1, so sin θ = 1 - sin² θ = cos² θ. Thus, cos² θ + cos⁴ θ = sin θ + sin² θ = 1."
-        },
-        {
-          "question": "The sum of three numbers is 15, and their product is 125. What is the sum of their squares?",
-          "options": ["75", "85", "95", "105"],
-          "answer": 0,
-          "explanation": "📝 Let numbers be x, y, z. x + y + z = 15, xyz = 125. Assume x = y = z = 5 (since 5³ = 125). Sum of squares = 5² + 5² + 5² = 75."
-        },
-        {
-          "question": "A car covers 240 km at a speed of 80 km/h. If the speed is reduced by 20%, how long will it take to cover 300 km?",
-          "options": ["4.5 hours", "5 hours", "5.5 hours", "6 hours"],
-          "answer": 2,
-          "explanation": "📝 New speed = 80 × 0.8 = 64 km/h. Time = 300/64 = 4.6875 hours ≈ 5.5 hours."
-        },
-        {
-          "question": "The mode of the numbers 4, 6, 6, 7, 8, 8, 8, 9 is:",
-          "options": ["6", "7", "8", "9"],
-          "answer": 2,
-          "explanation": "📝 Mode is the number appearing most frequently: 8 (appears 3 times)."
-        },
-        {
-          "question": "A sum of Rs. 8000 is invested at 10% simple interest for 5 years. What is the total amount after 5 years?",
-          "options": ["Rs. 10000", "Rs. 11000", "Rs. 12000", "Rs. 13000"],
-          "answer": 2,
-          "explanation": "📝 SI = (8000 × 10 × 5)/100 = 4000. Total = 8000 + 4000 = Rs. 12000."
-        },
-        {
-          "question": "The number of ways to select 3 books from 5 distinct books is:",
-          "options": ["10", "15", "20", "25"],
-          "answer": 2,
-          "explanation": "📝 Number of ways = C(5,3) = 5!/(3!2!) = 10."
-        },
-    
-        {
-          "question": "Which Indian state is known for the Kumbh Mela festival?",
-          "options": ["Uttar Pradesh", "Rajasthan", "Madhya Pradesh", "Bihar"],
-          "answer": 0,
-          "explanation": "📝 The Kumbh Mela, a major Hindu festival, is primarily held in Allahabad (Prayagraj), Uttar Pradesh."
-        },
-        {
-          "question": "Who was the first Indian to win a Nobel Prize in Economics?",
-          "options": ["Amartya Sen", "C.V. Raman", "Abhijit Banerjee", "Raghuram Rajan"],
-          "answer": 0,
-          "explanation": "📝 Amartya Sen was the first Indian to win the Nobel Prize in Economics in 1998."
-        },
-        {
-          "question": "The headquarters of the World Health Organization is located in:",
-          "options": ["New York", "Geneva", "Paris", "London"],
-          "answer": 1,
-          "explanation": "📝 The World Health Organization is headquartered in Geneva, Switzerland."
-        },
-        {
-          "question": "Which Indian revolutionary is known as 'Shaheed-e-Azam'?",
-          "options": ["Subhas Chandra Bose", "Bhagat Singh", "Chandra Shekhar Azad", "Lala Lajpat Rai"],
-          "answer": 1,
-          "explanation": "📝 Bhagat Singh is known as 'Shaheed-e-Azam' for his revolutionary activities and martyrdom."
-        },
-        {
-          "question": "The Andaman and Nicobar Islands are separated from the mainland by which sea?",
-          "options": ["Arabian Sea", "Bay of Bengal", "Indian Ocean", "Andaman Sea"],
-          "answer": 1,
-          "explanation": "📝 The Andaman and Nicobar Islands are located in the Bay of Bengal."
-        },
-        {
-          "question": "Which Indian monument was commissioned by Emperor Akbar?",
-          "options": ["Fatehpur Sikri", "Taj Mahal", "Qutub Minar", "Red Fort"],
-          "answer": 0,
-          "explanation": "📝 Fatehpur Sikri, a UNESCO World Heritage Site, was commissioned by Emperor Akbar."
-        },
-        {
-          "question": "The currency of South Africa is:",
-          "options": ["Rand", "Pound", "Dollar", "Euro"],
-          "answer": 0,
-          "explanation": "📝 The currency of South Africa is the Rand."
-        },
-        {
-          "question": "Which Indian state is the largest producer of coffee?",
-          "options": ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh"],
-          "answer": 1,
-          "explanation": "📝 Karnataka is the largest producer of coffee in India, particularly in Coorg."
-        },
-        {
-          "question": "The First War of Indian Independence occurred in which year?",
-          "options": ["1857", "1757", "1827", "1877"],
-          "answer": 0,
-          "explanation": "📝 The First War of Indian Independence, also known as the Sepoy Mutiny, occurred in 1857."
-        },
-        {
-          "question": "Which organization is responsible for nuclear research in India?",
-          "options": ["ISRO", "DRDO", "BARC", "CSIR"],
-          "answer": 2,
-          "explanation": "📝 BARC (Bhabha Atomic Research Centre) is responsible for nuclear research in India."
-        },
-        {
-          "question": "The Indian Constitution was amended to include the Right to Education under which article?",
-          "options": ["Article 19", "Article 21A", "Article 32", "Article 44"],
-          "answer": 1,
-          "explanation": "📝 Article 21A provides for the Right to Education for children aged 6 to 14 years."
-        },
-        {
-          "question": "Which Indian city is known as the 'Pink City'?",
-          "options": ["Jaipur", "Jodhpur", "Udaipur", "Bikaner"],
-          "answer": 0,
-          "explanation": "📝 Jaipur, Rajasthan, is known as the 'Pink City' due to its pink-colored buildings."
-        },
-        {
-          "question": "The national bird of India is:",
-          "options": ["Peacock", "Parrot", "Eagle", "Sparrow"],
-          "answer": 0,
-          "explanation": "📝 The Indian Peacock is the national bird of India."
-        },
-        {
-          "question": "Which Indian state is known as the 'Land of the Rising Sun'?",
-          "options": ["Assam", "Arunachal Pradesh", "Mizoram", "Nagaland"],
-          "answer": 1,
-          "explanation": "📝 Arunachal Pradesh is called the 'Land of the Rising Sun' as it is India’s easternmost state."
-        },
-        {
-          "question": "The first Indian woman to become President of India was:",
-          "options": ["Indira Gandhi", "Pratibha Patil", "Sonia Gandhi", "Sushma Swaraj"],
-          "answer": 1,
-          "explanation": "📝 Pratibha Patil was the first woman President of India, serving from 2007 to 2012."
-        },
-        {
-          "question": "Which gas, discovered in the sun’s corona, is used in MRI scanners?",
-          "options": ["Hydrogen", "Helium", "Nitrogen", "Oxygen"],
-          "answer": 1,
-          "explanation": "📝 Helium, discovered in the sun’s corona, is used in MRI scanners due to its low boiling point and inert nature."
-        },
-        {
-          "question": "The phenomenon of splitting light into its colors is called:",
-          "options": ["Reflection", "Refraction", "Dispersion", "Diffraction"],
-          "answer": 2,
-          "explanation": "📝 Dispersion is the splitting of white light into its constituent colors, as seen in a prism."
-        },
-        {
-          "question": "Which part of the human eye focuses light onto the retina?",
-          "options": ["Cornea", "Iris", "Lens", "Pupil"],
-          "answer": 2,
-          "explanation": "📝 The lens focuses light onto the retina to form clear images."
-        },
-        {
-          "question": "The chemical formula for sulfuric acid is:",
-          "options": ["HCl", "H₂SO₄", "HNO₃", "H₂CO₃"],
-          "answer": 1,
-          "explanation": "📝 Sulfuric acid is represented by the formula H₂SO₄."
-        },
-        {
-          "question": "Which scientist discovered the law of gravitation?",
-          "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Stephen Hawking"],
-          "answer": 1,
-          "explanation": "📝 Isaac Newton formulated the law of universal gravitation."
-        },
-        {
-          "question": "The process by which water vapor turns into liquid is called:",
-          "options": ["Evaporation", "Condensation", "Sublimation", "Precipitation"],
-          "answer": 1,
-          "explanation": "📝 Condensation is the process of water vapor turning into liquid water."
-        },
-        {
-          "question": "Which blood group is known as the universal recipient?",
-          "options": ["A+", "B+", "O+", "AB+"],
-          "answer": 3,
-          "explanation": "📝 AB+ is the universal recipient as it can receive blood from any blood type."
-        },
-        {
-          "question": "The SI unit of power is:",
-          "options": ["Joule", "Watt", "Newton", "Volt"],
-          "answer": 1,
-          "explanation": "📝 The Watt is the SI unit of power, measuring energy per unit time."
-        },
-        {
-          "question": "Which gas is primarily responsible for ozone depletion?",
-          "options": ["Carbon dioxide", "Methane", "Chlorofluorocarbons", "Nitrous oxide"],
-          "answer": 2,
-          "explanation": "📝 Chlorofluorocarbons (CFCs) are primarily responsible for ozone layer depletion."
-        },
-        {
-          "question": "The second hardest naturally occurring substance is:",
-          "options": ["Diamond", "Corundum", "Quartz", "Topaz"],
-          "answer": 1,
-          "explanation": "📝 Corundum (e.g., sapphire, ruby) is the second hardest substance after diamond, with a Mohs scale rating of 9."
-        },
-        {
-          "question": "Which organ in the human body filters blood to produce urine?",
-          "options": ["Liver", "Kidney", "Pancreas", "Spleen"],
-          "answer": 1,
-          "explanation": "📝 The kidneys filter blood to remove waste and produce urine."
-        },
-        {
-          "question": "The speed of sound in air at 20°C is approximately:",
-          "options": ["300 m/s", "343 m/s", "400 m/s", "500 m/s"],
-          "answer": 1,
-          "explanation": "📝 The speed of sound in air at 20°C is approximately 343 m/s."
-        },
-        {
-          "question": "Which element is essential for thyroid function?",
-          "options": ["Iron", "Iodine", "Calcium", "Zinc"],
-          "answer": 1,
-          "explanation": "📝 Iodine is essential for the production of thyroid hormones."
-        },
-        {
-          "question": "The process of combining two light nuclei to form a heavier nucleus is called:",
-          "options": ["Fission", "Fusion", "Radiation", "Decay"],
-          "answer": 1,
-          "explanation": "📝 Nuclear fusion involves combining two light nuclei to form a heavier nucleus, releasing energy."
-        },
-        {
-          "question": "Which type of electromagnetic wave has the longest wavelength?",
-          "options": ["Radio waves", "Microwaves", "Infrared", "Visible light"],
-          "answer": 0,
-          "explanation": "📝 Radio waves have the longest wavelength among electromagnetic waves."
-        },
-        {
-          "question": "In a code, MANGO is written as OTKAF. How is APPLE written in that code?",
-          "options": ["CSJHL", "DSJIM", "CSKIM", "DSKHL"],
-          "answer": 0,
-          "explanation": "📝 MANGO: M+2=O, A+3=T, N+4=R, G+5=I, O+6=U, but OTKAF suggests a different pattern. Testing: M-2=K, A+3=D, etc., adjust for APPLE: A+2=C, P+3=S, etc., gives CSJHL."
-        },
-        {
-          "question": "Find the odd one out: 9, 27, 81, 243, 720",
-          "options": ["9", "27", "81", "720"],
-          "answer": 3,
-          "explanation": "📝 Series: 9×3=27, 27×3=81, 81×3=243, 243×3=729, but 720 breaks the pattern. So, 720 is odd."
-        },
-        {
-          "question": "Complete the series: 4, 10, 22, 46, ?",
-          "options": ["94", "95", "96", "97"],
-          "answer": 0,
-          "explanation": "📝 Series: 4×2+2=10, 10×2+2=22, 22×2+2=46, 46×2+2=94."
-        },
-        {
-          "question": "If P is Q's husband, R is P's daughter, and S is Q's son, who is S to R?",
-          "options": ["Father", "Brother", "Son", "Husband"],
-          "answer": 1,
-          "explanation": "📝 P is Q’s husband, R is P’s daughter, S is Q’s son, so S is R’s brother."
-        },
-        {
-          "question": "In a code, 34567 is written as 45678. How is 78912 written?",
-          "options": ["89023", "90123", "89012", "90134"],
-          "answer": 0,
-          "explanation": "📝 Each digit in 34567 increases by 1: 3→4, 4→5, etc., gives 45678. For 78912: 7→8, 8→9, etc., gives 89023."
-        },
-        {
-          "question": "Find the missing term: 3, 7, 15, 31, ?",
-          "options": ["47", "63", "79", "95"],
-          "answer": 1,
-          "explanation": "📝 Series: 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63."
-        },
-        {
-          "question": "A man walks 12 km south, 5 km east, 12 km north, and 5 km west. Where is he relative to the starting point?",
-          "options": ["Starting point", "5 km east", "5 km west", "12 km south"],
-          "answer": 0,
-          "explanation": "📝 South 12 km, North 12 km cancels; East 5 km, West 5 km cancels. He is at the starting point."
-        },
-        {
-          "question": "If 2 = 8, 3 = 18, 4 = 32, what is 5?",
-          "options": ["40", "48", "50", "64"],
-          "answer": 1,
-          "explanation": "📝 Pattern: n × (n+1)²/2. For 2: 2×3²/2=9 (adjust for options), for 5: 5×6²/2=90/2=45, closest 48."
-        },
-        {
-          "question": "Complete the analogy: Knife : Cut :: Hammer : ?",
-          "options": ["Nail", "Hit", "Wood", "Build"],
-          "answer": 1,
-          "explanation": "📝 Knife is used to cut; hammer is used to hit."
-        },
-        {
-          "question": "If 1 April 2025 is a Tuesday, what day is 15 May 2025?",
-          "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
-          "answer": 2,
-          "explanation": "📝 From 1 Apr to 15 May = 44 days. 44 ÷ 7 = 6 weeks + 2 days. Tuesday + 2 = Thursday."
-        },
-        {
-          "question": "Find the odd one out: 25, 36, 49, 64, 81",
-          "options": ["25", "36", "49", "64"],
-          "answer": 0,
-          "explanation": "📝 All are perfect squares (5², 6², 7², 8², 9²). No odd one out, possible error."
-        },
-        {
-          "question": "If A is B's wife, C is A's son, and D is B's daughter, who is D to C?",
-          "options": ["Mother", "Sister", "Wife", "Daughter"],
-          "answer": 1,
-          "explanation": "📝 D is B’s daughter, A is B’s wife, C is A’s son, so D is C’s sister."
-        },
-        {
-          "question": "In a code, BANANA is written as CBQFSJ. How is ORANGE written?",
-          "options": ["PSBOHF", "QTBQIG", "PSCPHF", "QSCPHG"],
-          "answer": 0,
-          "explanation": "📝 BANANA: B+1=C, A+2=C, etc., gives CBQFSJ. ORANGE: O+1=P, R+2=T, etc., gives PSBOHF."
-        },
-        {
-          "question": "Complete the series: 6, 12, 24, 48, ?",
-          "options": ["72", "96", "108", "120"],
-          "answer": 1,
-          "explanation": "📝 Series: 6×2=12, 12×2=24, 24×2=48, 48×2=96."
-        },
-        {
-          "question": "How many cubes are in a 5×5×5 cube?",
-          "options": ["25", "75", "125", "625"],
-          "answer": 2,
-          "explanation": "📝 Number of cubes = 5 × 5 × 5 = 125."
-        },
-        {
-          "question": "If A > B > C > D, and B is not the smallest, who is the smallest?",
-          "options": ["A", "B", "C", "D"],
-          "answer": 3,
-          "explanation": "📝 A > B > C > D, so D is the smallest."
-        },
-        {
-          "question": "In a code, 12345 is written as 23456. How is 56789 written?",
-          "options": ["67890", "78901", "89012", "90123"],
-          "answer": 0,
-          "explanation": "📝 Each digit in 12345 increases by 1: 1→2, etc., gives 23456. For 56789: 5→6, etc., gives 67890."
-        },
-        {
-          "question": "Find the missing term: 5, 10, 20, 40, ?",
-          "options": ["60", "80", "100", "120"],
-          "answer": 1,
-          "explanation": "📝 Series: 5×2=10, 10×2=20, 20×2=40, 40×2=80."
-        },
-        {
-          "question": "If 'dog' is 'cat', 'cat' is 'rat', and 'rat' is 'bat', what is a cat called?",
-          "options": ["Dog", "Cat", "Rat", "Bat"],
-          "answer": 2,
-          "explanation": "📝 Cat is coded as rat."
-        },
-        {
-          "question": "Complete the analogy: 5:25 :: 7:?",
-          "options": ["35", "49", "56", "64"],
-          "answer": 1,
-          "explanation": "📝 5:25 = 5², so 7:7² = 49."
-        },
-        {
-          "question": "If 1 = 3, 2 = 10, 3 = 29, what is 4?",
-          "options": ["50", "66", "78", "92"],
-          "answer": 2,
-          "explanation": "📝 Pattern: 1×3=3, 2×5=10, 3×9=27+2=29, 4×13=52+2=54, closest 78 (adjust for options)."
-        },
-        {
-          "question": "A clock shows 8:00. After 4 hours and 30 minutes, what time is it?",
-          "options": ["12:00", "12:15", "12:30", "12:45"],
-          "answer": 2,
-          "explanation": "📝 8:00 + 4 hours = 12:00, +30 minutes = 12:30."
-        },
-        {
-          "question": "Find the odd one out: 16, 25, 36, 49, 60",
-          "options": ["16", "25", "36", "60"],
-          "answer": 3,
-          "explanation": "📝 16, 25, 36, 49 are perfect squares; 60 is not."
-        },
-        {
-          "question": "If P is Q's mother, R is P's son, and S is Q's husband, who is S to R?",
-          "options": ["Father", "Brother", "Son", "Husband"],
-          "answer": 0,
-          "explanation": "📝 S is Q’s husband, P is Q’s mother, R is P’s son, so S is R’s father."
-        },
-        {
-          "question": "Complete the series: 4, 12, 36, 108, ?",
-          "options": ["216", "324", "432", "540"],
-          "answer": 1,
-          "explanation": "📝 Series: 4×3=12, 12×3=36, 36×3=108, 108×3=324."
-        },
-        {
-          "question": "In a code, MOON is written as PQRS. How is STAR written?",
-          "options": ["UVWX", "VWXY", "WXYZ", "XYZA"],
-          "answer": 0,
-          "explanation": "📝 MOON: M+3=P, O+3=R, etc., gives PQRS. STAR: S+3=V, T+3=W, etc., gives UVWX."
-        },
-        {
-          "question": "How many rectangles are in a 4×5 grid?",
-          "options": ["60", "90", "120", "150"],
-          "answer": 2,
-          "explanation": "📝 Number of rectangles = (∑m)(∑n), m=1 to 4, n=1 to 5. ∑m = 1+2+3+4=10, ∑n = 1+2+3+4+5=15. Total = 10 × 15 = 150."
-        },
-        {
-          "question": "If A > B > C > D, and C is not the largest, who is the largest?",
-          "options": ["A", "B", "C", "D"],
-          "answer": 0,
-          "explanation": "📝 A > B > C > D, so A is the largest."
-        },
-        {
-          "question": "Complete the series: 3, 8, 18, 38, ?",
-          "options": ["78", "79", "80", "81"],
-          "answer": 0,
-          "explanation": "📝 Differences: 5, 10, 20 (doubling). Next difference = 40, so 38 + 40 = 78."
-        },
-        {
-          "question": "If 234 means 'cold rainy day', 456 means 'rainy hot night', what does 'rainy' mean?",
-          "options": ["2", "3", "4", "5"],
-          "answer": 1,
-          "explanation": "📝 234 = cold rainy day, 456 = rainy hot night. 'rainy' is common, so it’s 3."
-        },
-        {
-          "question": "Which railway tunnel in India is named after a former Prime Minister?",
-          "options": ["Pir Panjal Tunnel", "Atal Tunnel", "Karbude Tunnel", "Sangaldan Tunnel"],
-          "answer": 1,
-          "explanation": "📝 The Atal Tunnel, although a road tunnel, is named after former PM Atal Bihari Vajpayee; no railway tunnel has this distinction, but options suggest Atal."
-        },
-        {
-          "question": "The Western Dedicated Freight Corridor primarily serves which port?",
-          "options": ["Kandla Port", "Jawaharlal Nehru Port", "Mumbai Port", "Chennai Port"],
-          "answer": 1,
-          "explanation": "📝 The Western DFC connects to Jawaharlal Nehru Port (Mumbai) for freight transport."
-        },
-        {
-          "question": "Which railway zone operates the Darjeeling Himalayan Railway?",
-          "options": ["Northern Railway", "Northeast Frontier Railway", "Eastern Railway", "Southern Railway"],
-          "answer": 1,
-          "explanation": "📝 The Darjeeling Himalayan Railway is operated by the Northeast Frontier Railway."
-        },
-        {
-          "question": "The Vande Bharat Express trains are designed to operate at a semi-high speed of up to:",
-          "options": ["160 km/h", "180 km/h", "200 km/h", "220 km/h"],
-          "answer": 1,
-          "explanation": "📝 Vande Bharat Express trains are designed for a maximum speed of 180 km/h."
-        },
-        {
-          "question": "The DFCCIL was incorporated under which ministry?",
-          "options": ["Ministry of Commerce", "Ministry of Railways", "Ministry of Transport", "Ministry of Finance"],
-          "answer": 1,
-          "explanation": "📝 DFCCIL operates under the Ministry of Railways, Government of India."
-        },
-        {
-          "question": "Which Indian railway station is a UNESCO World Heritage Site?",
-          "options": ["Howrah Junction", "Chhatrapati Shivaji Maharaj Terminus", "New Delhi", "Chennai Central"],
-          "answer": 1,
-          "explanation": "📝 Chhatrapati Shivaji Maharaj Terminus (CSMT) in Mumbai is a UNESCO World Heritage Site."
-        },
-        {
-          "question": "The Eastern Dedicated Freight Corridor’s length is approximately:",
-          "options": ["1300 km", "1500 km", "1800 km", "2000 km"],
-          "answer": 2,
-          "explanation": "📝 The Eastern DFC spans approximately 1800 km from Ludhiana to Kolkata."
-        },
-        {
-          "question": "Which railway factory produces electric locomotives for Indian Railways?",
-          "options": ["DLW", "ICF", "CLW", "RCF"],
-          "answer": 2,
-          "explanation": "📝 Chittaranjan Locomotive Works (CLW) produces electric locomotives for Indian Railways."
-        },
-        {
-          "question": "The Amrit Bharat Station Scheme aims to redevelop how many railway stations?",
-          "options": ["500", "1000", "1300", "1500"],
-          "answer": 2,
-          "explanation": "📝 The Amrit Bharat Station Scheme targets the redevelopment of approximately 1300 railway stations."
-        },
-        {
-          "question": "The first electric train in India ran between which two cities?",
-          "options": ["Mumbai and Pune", "Mumbai and Kurla", "Delhi and Agra", "Kolkata and Howrah"],
-          "answer": 1,
-          "explanation": "📝 The first electric train in India ran between Mumbai (Victoria Terminus) and Kurla in 1925."
-        }
-      ]
+      "question": "1. If a DC series motor is started on no-load, what is the most likely outcome?",
+      "options": ["The motor will not start", "The motor will run at a very low speed", "The motor will attain dangerously high speed", "The motor will draw excessive current and burn out"],
+      "answer": 2,
+      "explanation": "In a DC series motor, flux is proportional to load current. At no-load, flux is near zero, and since speed is inversely proportional to flux, the speed tends toward infinity."
+    },
+    {
+      "question": "2. In a 3-phase induction motor, if the slip is zero, the motor will:",
+      "options": ["Run at synchronous speed", "Not produce any torque", "Draw maximum current", "Run at half speed"],
+      "answer": 1,
+      "explanation": "Torque is produced by the interaction of the rotor current and the stator field. If slip is zero (rotor speed = synchronous speed), no EMF is induced in the rotor, and torque becomes zero."
+    },
+    {
+      "question": "3. Which part of the DC machine is responsible for mechanical rectification of AC to DC?",
+      "options": ["Armature core", "Field poles", "Commutator", "Yoke"],
+      "answer": 2,
+      "explanation": "The commutator, along with the brushes, converts the alternating EMF generated in the armature conductors into a unidirectional DC voltage at the terminals."
+    },
+    {
+      "question": "4. A transformer is rated at 500 kVA, 11kV/415V. What is the full-load primary current?",
+      "options": ["26.24 A", "45.45 A", "120.5 A", "50.0 A"],
+      "answer": 0,
+      "explanation": "I = kVA / (√3 × V_line). I = 500,000 / (1.732 × 11,000) ≈ 26.24 A."
+    },
+    {
+      "question": "5. What is the primary purpose of using 'Laminated Cores' in electrical machines?",
+      "options": ["To reduce Copper loss", "To reduce Eddy current loss", "To reduce Hysteresis loss", "To improve cooling"],
+      "answer": 1,
+      "explanation": "Laminations break the path of circulating eddy currents, thereby reducing the heat loss generated by these currents in the core."
+    },
+    {
+      "question": "6. In a Star-connected system, the neutral current in a perfectly balanced 3-phase load is:",
+      "options": ["Equal to Phase current", "√3 times Phase current", "Zero", "Three times Phase current"],
+      "answer": 2,
+      "explanation": "In a balanced 3-phase system, the vector sum of the three currents at the neutral point is zero."
+    },
+    {
+      "question": "7. Which of the following is an 'Integrating Instrument'?",
+      "options": ["Ammeter", "Voltmeter", "Wattmeter", "Energy Meter"],
+      "answer": 3,
+      "explanation": "Integrating instruments measure the total quantity (like kWh) consumed over a period of time."
+    },
+    {
+      "question": "8. For a 33kV overhead line, what type of insulator is typically used on straight runs?",
+      "options": ["Pin type", "Shackle type", "Stay type", "Strain type"],
+      "answer": 0,
+      "explanation": "Pin type insulators are commonly used for high voltage lines up to 33kV on straight supports."
+    },
+    {
+      "question": "9. A 'Megger' is essentially a combination of:",
+      "options": ["Ammeter and Voltmeter", "Generator and Ohmmeter", "Motor and Wattmeter", "Battery and Galvanometer"],
+      "answer": 1,
+      "explanation": "A Megger consists of a hand-driven DC generator and a high-resistance range ohmmeter."
+    },
+    {
+      "question": "10. What is the maximum permitted voltage for portable hand lamps used in underground mines according to safety regulations?",
+      "options": ["230V", "110V", "25V", "12V"],
+      "answer": 2,
+      "explanation": "For safety in damp or metallic environments like mines, low voltage (typically 25V via a safety transformer) is used for portable lighting."
+    },
+    {
+      "question": "11. The 'Open Circuit Test' on a transformer is performed to find:",
+      "options": ["Copper losses", "Core losses", "Efficiency at full load", "Regulation"],
+      "answer": 1,
+      "explanation": "The OC test is conducted at rated voltage to determine constant losses (Hysteresis and Eddy current losses)."
+    },
+    {
+      "question": "12. In a DC Shunt Motor, if the field winding is suddenly opened while running:",
+      "options": ["The motor will stop immediately", "The motor speed will become zero", "The motor speed will increase dangerously", "The motor will act as a generator"],
+      "answer": 2,
+      "explanation": "Opening the field reduces flux (Φ) to residual magnetism levels. Since Speed (N) ∝ 1/Φ, the speed rises rapidly."
+    },
+    {
+      "question": "13. Which material is used for the brushes in a large DC motor?",
+      "options": ["Copper", "Aluminum", "Carbon/Graphite", "Brass"],
+      "answer": 2,
+      "explanation": "Carbon/Graphite is used because it is self-lubricating, has a negative temperature coefficient (reducing sparking), and is softer than the commutator."
+    },
+    {
+      "question": "14. What is the 'Form Factor' for a pure sinusoidal AC wave?",
+      "options": ["1.414", "1.11", "0.707", "0.637"],
+      "answer": 1,
+      "explanation": "Form Factor = RMS Value / Average Value. For a sine wave, 0.707 / 0.637 = 1.11."
+    },
+    {
+      "question": "15. The armature of a DC machine is made of silicon steel to reduce:",
+      "options": ["Eddy current loss", "Hysteresis loss", "Copper loss", "Friction loss"],
+      "answer": 1,
+      "explanation": "Silicon steel has a high permeability and low hysteresis coefficient, reducing the energy lost during magnetic reversals."
+    },
+    {
+      "question": "16. In 33kV system, the 'Basic Impulse Insulation Level' (BIL) is a measure of:",
+      "options": ["Resistance to moisture", "Ability to withstand lightning/switching surges", "Current carrying capacity", "Thermal stability"],
+      "answer": 1,
+      "explanation": "BIL defines the reference insulation levels to ensure the system can survive high-voltage transients."
+    },
+    {
+      "question": "17. A capacitor-start single-phase induction motor has a ____ power factor at starting compared to a split-phase motor.",
+      "options": ["Lower", "Higher", "Unity", "Zero"],
+      "answer": 1,
+      "explanation": "The capacitor improves the phase angle between the main and starting windings, leading to higher starting torque and a better power factor."
+    },
+    {
+      "question": "18. What is the function of the 'Breather' in a transformer?",
+      "options": ["To provide oxygen to the oil", "To filter oil contaminants", "To absorb moisture from the air entering the tank", "To release internal gas"],
+      "answer": 2,
+      "explanation": "As the transformer oil cools and contracts, air is drawn in through the breather, where silica gel removes moisture."
+    },
+    {
+      "question": "19. An 8-pole AC generator running at 750 RPM will produce a frequency of:",
+      "options": ["25 Hz", "50 Hz", "60 Hz", "100 Hz"],
+      "answer": 1,
+      "explanation": "f = (P × N) / 120 = (8 × 750) / 120 = 50 Hz."
+    },
+    {
+      "question": "20. The 'Skin Effect' in a conductor depends on:",
+      "options": ["Frequency of current", "Diameter of conductor", "Permeability of material", "All of the above"],
+      "answer": 3,
+      "explanation": "Skin effect (tendency of AC to flow near the surface) increases with frequency, diameter, and magnetic properties."
     }
-  
+  ]
+}
