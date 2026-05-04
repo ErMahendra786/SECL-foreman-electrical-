@@ -583,5 +583,291 @@
       "correct_answer": "17.32A",
       "explanation": "In Delta: I_phase = I_line / √3 = 30 / 1.732 ≈ 17.32 A."
     }
+      {
+      "question": "54. Which part of the transformer oil testing involves checking the 'Dielectric Strength'?",
+      "options": ["Flash point test", "Acidity test", "BDV (Break Down Voltage) test", "Sludge test"],
+      "correct_answer": "BDV (Break Down Voltage) test",
+      "explanation": "The BDV test measures the maximum voltage the oil can withstand without sparking, indicating its insulation quality."
+    },
+    {
+      "question": "55. The 'Dampers' in a synchronous motor are used to:",
+      "options": ["Increase speed", "Prevent hunting", "Cool the motor", "Reduce noise"],
+      "correct_answer": "Prevent hunting",
+      "explanation": "Damper windings provide a damping torque to suppress oscillations (hunting) of the rotor when load changes abruptly."
+    },
+    {
+      "question": "56. Which power plant has the highest initial cost and lowest running cost?",
+      "options": ["Thermal Power Plant", "Hydroelectric Power Plant", "Diesel Power Plant", "Gas Turbine Plant"],
+      "correct_answer": "Hydroelectric Power Plant",
+      "explanation": "Dams are expensive to build, but the 'fuel' (water) is free, leading to very low operating costs."
+    },
+    {
+      "question": "57. What is the effect of 'Power Factor' on the cost of electricity (Tariff)?",
+      "options": ["Low PF reduces energy bill", "Low PF leads to penalties in industrial tariffs", "High PF leads to penalties", "PF does not affect the bill"],
+      "correct_answer": "Low PF leads to penalties in industrial tariffs",
+      "explanation": "Low power factor increases the current required for the same power, putting stress on the grid; utilities penalize this."
+    },
+    {
+      "question": "58. For the protection of the 'Alternator Stator' against internal phase-to-phase faults, which system is used?",
+      "options": ["Merz-Price Circulating Current system", "Buchholz Relay", "Over-speed trip", "Reverse power relay"],
+      "correct_answer": "Merz-Price Circulating Current system",
+      "explanation": "This is a differential protection scheme specifically for generator and transformer windings."
+    },
+    {
+      "question": "59. 'Diversity Factor' is defined as the ratio of:",
+      "options": ["Sum of individual max demands / Max demand of the system", "Average load / Max demand", "Installed capacity / Max demand", "Peak load / Average load"],
+      "correct_answer": "Sum of individual max demands / Max demand of the system",
+      "explanation": "Diversity factor is always greater than 1 and helps in sizing the supply equipment efficiently."
+    },
+    {
+      "question": "60. Which semiconductor device acts like a 'Voltage Controlled Switch'?",
+      "options": ["BJT", "FET/MOSFET", "Diode", "Resistor"],
+      "correct_answer": "FET/MOSFET",
+      "explanation": "MOSFETs are voltage-controlled devices, whereas BJTs are current-controlled."
+    },
+    {
+      "question": "61. The standard color for 'Earth' wire in modern Indian household wiring is:",
+      "options": ["Red", "Black", "Green or Green-Yellow", "Blue"],
+      "correct_answer": "Green or Green-Yellow",
+      "explanation": "As per IS codes, Green or Green-Yellow is used for earthing, Red/Yellow/Blue for phases, and Black for neutral."
+    },
+    {
+      "question": "62. What is the value of 'Root Mean Square' (RMS) for a peak voltage Vm?",
+      "options": ["0.637 Vm", "0.707 Vm", "Vm / √3", "1.414 Vm"],
+      "correct_answer": "0.707 Vm",
+      "explanation": "RMS = Vm / √2 ≈ 0.707 Vm."
+    },
+    {
+      "question": "63. 'Step Potential' and 'Touch Potential' are terms associated with:",
+      "options": ["Battery charging", "Substation Earthing", "Motor starting", "HT cable jointing"],
+      "correct_answer": "Substation Earthing",
+      "explanation": "These potentials must be limited during a fault to prevent electrocuting anyone standing near or touching substation equipment."
+    },
+    {
+      "question": "64. Which of the following is a 'Primary Cell'?",
+      "options": ["Lead-Acid cell", "Lithium-Ion cell", "Zinc-Carbon cell", "Nickel-Cadmium cell"],
+      "correct_answer": "Zinc-Carbon cell",
+      "explanation": "Primary cells are non-rechargeable (Zinc-Carbon); secondary cells are rechargeable."
+    },
+    {
+      "question": "65. A multimeter cannot measure:",
+      "options": ["Voltage", "Current", "Resistance", "Phase Angle"],
+      "correct_answer": "Phase Angle",
+      "explanation": "Standard multimeters measure V, I, and R. Phase angle requires an oscilloscope or a power factor meter."
+    },
+    {
+      "question": "66. In a DC machine, the 'Armature Reaction' causes:",
+      "options": ["Cross-magnetizing effect", "Demagnetizing effect", "Weakening of main flux", "All of the above"],
+      "correct_answer": "All of the above",
+      "explanation": "Armature reaction distorts (cross-magnetizes) and weakens (demagnetizes) the main field flux."
+    },
+    {
+      "question": "67. Which type of connection is used in a distribution transformer (at the consumer end)?",
+      "options": ["Star-Star", "Delta-Delta", "Delta-Star", "Star-Delta"],
+      "correct_answer": "Delta-Star",
+      "explanation": "Delta-Star is used to provide a neutral wire for single-phase consumer loads."
+    },
+    {
+      "question": "68. 'Hunting' in synchronous motors is minimized by using:",
+      "options": ["Flywheels", "Damper windings", "Better lubrication", "Increasing supply frequency"],
+      "correct_answer": "Damper windings",
+      "explanation": "Damper windings produce induction torque that opposes the oscillatory motion of the rotor."
+    },
+    {
+      "question": "69. In an 11kV cable, the 'Grading' of the cable is done to:",
+      "options": ["Reduce the cost", "Achieve uniform electrostatic stress", "Increase the current capacity", "Decrease the weight"],
+      "correct_answer": "Achieve uniform electrostatic stress",
+      "explanation": "Grading layers the insulation so that the electrical stress is distributed more evenly from the conductor to the sheath."
+    },
+    {
+      "question": "70. What does 'IP65' rating indicate for an electrical motor?",
+      "options": ["High efficiency", "Dust tight and protected against water jets", "Flame proof for mines", "Voltage rating 650V"],
+      "correct_answer": "Dust tight and protected against water jets",
+      "explanation": "IP (Ingress Protection) ratings define how well the enclosure protects against solids and liquids."
+    },
+    {
+      "question": "71. Which component is used to limit the starting current of a large DC motor?",
+      "options": ["Series Capacitor", "Variable Resistor (Starter)", "Choke", "Transformer"],
+      "correct_answer": "Variable Resistor (Starter)",
+      "explanation": "A starter adds resistance in series with the armature to limit current until back-EMF builds up."
+    },
+    {
+      "question": "72. What is the unit of 'Permeability'?",
+      "options": ["Ampere/meter", "Henry/meter", "Weber/meter", "Tesla/meter"],
+      "correct_answer": "Henry/meter",
+      "explanation": "Permeability (μ) is measured in Henrys per meter (H/m)."
+    },
+    {
+      "question": "73. In a pure resistive circuit, the power factor is:",
+      "options": ["Zero", "0.5 lagging", "Unity", "0.8 leading"],
+      "correct_answer": "Unity",
+      "explanation": "In a resistor, voltage and current are in phase; Cos(0) = 1 (Unity)."
+    },
+    {
+      "question": "74. Which gas is produced during the charging of a Lead-Acid battery?",
+      "options": ["Oxygen and Hydrogen", "Methane", "Carbon Monoxide", "Nitrogen"],
+      "correct_answer": "Oxygen and Hydrogen",
+      "explanation": "Electrolysis of the water in the electrolyte releases hydrogen and oxygen, which is why batteries must be kept in ventilated areas."
+    },
+    {
+      "question": "75. 'ACSR' conductors stand for:",
+      "options": ["All Copper Steel Reinforced", "Aluminum Conductor Steel Reinforced", "Aluminum Copper Standard Relay", "All Carbon Steel Rod"],
+      "correct_answer": "Aluminum Conductor Steel Reinforced",
+      "explanation": "ACSR uses aluminum strands for conductivity and a steel core for mechanical strength in overhead lines."
+    },
+    {
+      "question": "76. The 'Secondary' of a Current Transformer (CT) should never be:",
+      "options": ["Short circuited", "Open circuited", "Grounded", "Connected to an ammeter"],
+      "correct_answer": "Open circuited",
+      "explanation": "If the secondary is opened while the primary is live, a dangerously high voltage is induced that can destroy the insulation and kill the operator."
+    },
+    {
+      "question": "77. For an 11kV substation, the lightning arrestor is installed:",
+      "options": ["Near the transformer", "Near the entry of the line", "On the neutral wire", "Both A and B"],
+      "correct_answer": "Both A and B",
+      "explanation": "LAs are placed where the line enters the substation and close to expensive equipment like transformers."
+    },
+    {
+      "question": "78. In a 3-phase alternator, the 'Pitch Factor' is used to reduce:",
+      "options": ["Copper loss", "Iron loss", "Harmonics in generated EMF", "Armature reaction"],
+      "correct_answer": "Harmonics in generated EMF",
+      "explanation": "Short-pitching the windings helps eliminate specific higher-order harmonics, making the output more sinusoidal."
+    },
+    {
+      "question": "79. Which instrument is used to measure the 'Speed' of a motor?",
+      "options": ["Anemometer", "Tachometer", "Hydrometer", "Fluxmeter"],
+      "correct_answer": "Tachometer",
+      "explanation": "A tachometer measures revolutions per minute (RPM)."
+    },
+    {
+      "question": "80. What is the efficiency of a typical large Power Transformer?",
+      "options": ["50-60%", "70-80%", "95-99%", "100%"],
+      "correct_answer": "95-99%",
+      "explanation": "Transformers have no moving parts and very low losses, making them highly efficient."
+    }
+
+  {
+  "Part_B_General_Knowledge_and_Awareness_20_MCQS": [
+    {
+      "question": "81. Which subsidiary of Coal India Limited is the largest coal-producing company in India?",
+      "options": ["MCL", "SECL", "NCL", "WCL"],
+      "correct_answer": "SECL",
+      "explanation": "South Eastern Coalfields Limited (SECL) has historically been the highest coal-producing subsidiary of Coal India Limited (CIL)."
+    },
+    {
+      "question": "82. In which year was Coal India Limited (CIL) established?",
+      "options": ["1972", "1975", "1980", "1991"],
+      "correct_answer": "1975",
+      "explanation": "Coal India Limited was incorporated in 1975 as the holding company for coal mining in India."
+    },
+    {
+      "question": "83. The Gevra and Dipka mines, which are among the largest opencast mines in Asia, are located in which district of Chhattisgarh?",
+      "options": ["Raigarh", "Korba", "Surguja", "Bilaspur"],
+      "correct_answer": "Korba",
+      "explanation": "The Gevra, Dipka, and Kusmunda mines are situated in the Korba Coalfields of SECL."
+    },
+    {
+      "question": "84. Which river is known as the 'Lifeline of Chhattisgarh'?",
+      "options": ["Narmada", "Indravati", "Mahanadi", "Shivnath"],
+      "correct_answer": "Mahanadi",
+      "explanation": "Mahanadi is the most important river of Chhattisgarh, supporting its agriculture and industry."
+    },
+    {
+      "question": "85. The Amarkantak plateau, the source of the Narmada and Son rivers, is located in which state?",
+      "options": ["Chhattisgarh", "Madhya Pradesh", "Maharashtra", "Uttar Pradesh"],
+      "correct_answer": "Madhya Pradesh",
+      "explanation": "Amarkantak is a unique natural heritage area in the Anuppur district of Madhya Pradesh."
+    },
+    {
+      "question": "86. What is the state animal of Chhattisgarh?",
+      "options": ["Tiger", "Wild Buffalo (Van Bhainsa)", "Elephant", "Leopard"],
+      "correct_answer": "Wild Buffalo (Van Bhainsa)",
+      "explanation": "The Wild Water Buffalo is the official state animal of Chhattisgarh."
+    },
+    {
+      "question": "87. Which city in Madhya Pradesh is known as the 'Cleanest City of India' for several consecutive years?",
+      "options": ["Bhopal", "Indore", "Gwalior", "Jabalpur"],
+      "correct_answer": "Indore",
+      "explanation": "Indore has consistently secured the top rank in the Swachh Survekshan (Cleanliness Survey) of India."
+    },
+    {
+      "question": "88. The 'Khajuraho Group of Monuments' in Madhya Pradesh is famous for which architectural style?",
+      "options": ["Dravidian", "Nagara", "Vesara", "Mughal"],
+      "correct_answer": "Nagara",
+      "explanation": "The temples at Khajuraho are prime examples of the Nagara style of Hindu temple architecture."
+    },
+    {
+      "question": "89. Who is the Chairman of Coal India Limited (as of mid-2024)?",
+      "options": ["P.M. Prasad", "Pramod Agrawal", "Anil Kumar Jha", "Sridhar Patra"],
+      "correct_answer": "P.M. Prasad",
+      "explanation": "P.M. Prasad assumed charge as the Chairman-cum-Managing Director (CMD) of Coal India Limited in 2023."
+    },
+    {
+      "question": "90. Chitrakote Falls, often called the 'Niagara Falls of India', is located on which river?",
+      "options": ["Mahanadi", "Indravati", "Hasdeo", "Arpa"],
+      "correct_answer": "Indravati",
+      "explanation": "Chitrakote Falls is located on the Indravati River in the Bastar district of Chhattisgarh."
+    },
+    {
+      "question": "91. If the word 'ELECTRICAL' is coded as 'FMfDUrJDBM', how is 'POWER' coded?",
+      "options": ["QPXFS", "QPFXS", "RQXGT", "ONVDQ"],
+      "correct_answer": "QPXFS",
+      "explanation": "The logic is to move each letter one step forward (+1) in the alphabet. P+1=Q, O+1=P, W+1=X, E+1=F, R+1=S."
+    },
+    {
+      "question": "92. A train 150 meters long passes a pole in 15 seconds. What is the speed of the train in km/hr?",
+      "options": ["30 km/hr", "36 km/hr", "45 km/hr", "50 km/hr"],
+      "correct_answer": "36 km/hr",
+      "explanation": "Speed = Distance / Time = 150/15 = 10 m/s. To convert to km/hr: 10 * (18/5) = 36 km/hr."
+    },
+    {
+      "question": "93. Pointing to a man, a woman said, 'He is the only son of my mother's mother.' How is the man related to the woman?",
+      "options": ["Father", "Uncle (Maternal)", "Brother", "Cousin"],
+      "correct_answer": "Uncle (Maternal)",
+      "explanation": "Mother's mother is the grandmother. Her only son is the woman's maternal uncle (Mama)."
+    },
+    {
+      "question": "94. If 15% of a number is 45, what is 20% of that number?",
+      "options": ["50", "60", "75", "90"],
+      "correct_answer": "60",
+      "explanation": "15% = 45 -> 1% = 3 -> 100% = 300. 20% of 300 = 60."
+    },
+    {
+      "question": "95. Complete the series: 5, 11, 23, 47, ?",
+      "options": ["94", "95", "96", "99"],
+      "correct_answer": "95",
+      "explanation": "The pattern is (Number * 2) + 1. (5*2)+1=11; (11*2)+1=23; (23*2)+1=47; (47*2)+1=95."
+    },
+    {
+      "question": "96. Which number will replace the question mark? 16 : 64 :: 49 : ?",
+      "options": ["81", "100", "343", "256"],
+      "correct_answer": "343",
+      "explanation": "The relationship is x² : x³. 4² : 4³ (16:64). Similarly, 7² : 7³ (49:343)."
+    },
+    {
+      "question": "97. A man walks 5 km East, then turns South and walks 12 km. How far is he from his starting point?",
+      "options": ["13 km", "17 km", "7 km", "15 km"],
+      "correct_answer": "13 km",
+      "explanation": "Using Pythagoras theorem: √(5² + 12²) = √(25 + 144) = √169 = 13 km."
+    },
+    {
+      "question": "98. Find the average of first five prime numbers.",
+      "options": ["5.0", "5.6", "6.2", "4.8"],
+      "correct_answer": "5.6",
+      "explanation": "First five prime numbers: 2, 3, 5, 7, 11. Sum = 28. Average = 28/5 = 5.6."
+    },
+    {
+      "question": "99. In a certain code, 'RAIN' is written as '8$#6' and 'MORE' is written as '7%8@'. How is 'REMAIN' written?",
+      "options": ["8@7$#6", "8@7%#6", "8#7$@6", "8@#7$6"],
+      "correct_answer": "8@7$#6",
+      "explanation": "R=8, E=@, M=7, A=$, I=#, N=6 based on direct substitution from the given words."
+    },
+    {
+      "question": "100. Choose the word which is least like the others in the group.",
+      "options": ["Copper", "Zinc", "Silver", "Coal"],
+      "correct_answer": "Coal",
+      "explanation": "Copper, Zinc, and Silver are metals; Coal is a non-metal/fossil fuel."
+    }
   ]
-}
+  }
+    
