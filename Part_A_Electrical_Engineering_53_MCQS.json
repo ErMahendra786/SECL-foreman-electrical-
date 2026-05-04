@@ -1,5 +1,5 @@
 {
-  "quiz1": [
+  "Test-1": [
     {
       "question": "1. If a DC series motor is started on no-load, what is the most likely outcome?",
       "options": [
@@ -582,7 +582,7 @@
       ],
       "correct_answer": "17.32A",
       "explanation": "In Delta: I_phase = I_line / √3 = 30 / 1.732 ≈ 17.32 A."
-    }
+    },
       {
       "question": "54. Which part of the transformer oil testing involves checking the 'Dielectric Strength'?",
       "options": ["Flash point test", "Acidity test", "BDV (Break Down Voltage) test", "Sludge test"],
