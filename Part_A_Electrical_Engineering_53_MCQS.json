@@ -480,7 +480,129 @@
       "options": ["50-60%", "70-80%", "95-99%", "100%"],
       "answer": 2,
       "explanation": "Transformers have no moving parts and very low losses, making them highly efficient."
+    },
+    
+    {
+      "question": "81. Which subsidiary of Coal India Limited is the largest coal-producing company in India?",
+      "options": ["MCL", "SECL", "NCL", "WCL"],
+      "answer": 1,
+      "explanation": "South Eastern Coalfields Limited (SECL) has historically been the highest coal-producing subsidiary of Coal India Limited (CIL)."
+    },
+    {
+      "question": "82. In which year was Coal India Limited (CIL) established?",
+      "options": ["1972", "1975", "1980", "1991"],
+      "answer": 1,
+      "explanation": "Coal India Limited was incorporated in 1975 as the holding company for coal mining in India."
+    },
+    {
+      "question": "83. The Gevra and Dipka mines, which are among the largest opencast mines in Asia, are located in which district of Chhattisgarh?",
+      "options": ["Raigarh", "Korba", "Surguja", "Bilaspur"],
+      "answer": 1,
+      "explanation": "The Gevra, Dipka, and Kusmunda mines are situated in the Korba Coalfields of SECL."
+    },
+    {
+      "question": "84. Which river is known as the 'Lifeline of Chhattisgarh'?",
+      "options": ["Narmada", "Indravati", "Mahanadi", "Shivnath"],
+      "answer": 2,
+      "explanation": "Mahanadi is the most important river of Chhattisgarh, supporting its agriculture and industry."
+    },
+    {
+      "question": "85. The Amarkantak plateau, the source of the Narmada and Son rivers, is located in which state?",
+      "options": ["Chhattisgarh", "Madhya Pradesh", "Maharashtra", "Uttar Pradesh"],
+      "answer": 1,
+      "explanation": "Amarkantak is a unique natural heritage area in the Anuppur district of Madhya Pradesh."
+    },
+    {
+      "question": "86. What is the state animal of Chhattisgarh?",
+      "options": ["Tiger", "Wild Buffalo (Van Bhainsa)", "Elephant", "Leopard"],
+      "answer": 1,
+      "explanation": "The Wild Water Buffalo is the official state animal of Chhattisgarh."
+    },
+    {
+      "question": "87. Which city in Madhya Pradesh is known as the 'Cleanest City of India' for several consecutive years?",
+      "options": ["Bhopal", "Indore", "Gwalior", "Jabalpur"],
+      "answer": 1,
+      "explanation": "Indore has consistently secured the top rank in the Swachh Survekshan (Cleanliness Survey) of India."
+    },
+    {
+      "question": "88. The 'Khajuraho Group of Monuments' in Madhya Pradesh is famous for which architectural style?",
+      "options": ["Dravidian", "Nagara", "Vesara", "Mughal"],
+      "answer": 1,
+      "explanation": "The temples at Khajuraho are prime examples of the Nagara style of Hindu temple architecture."
+    },
+    {
+      "question": "89. Who is the Chairman of Coal India Limited (as of mid-2024)?",
+      "options": ["P.M. Prasad", "Pramod Agrawal", "Anil Kumar Jha", "Sridhar Patra"],
+      "answer": 0,
+      "explanation": "P.M. Prasad assumed charge as the Chairman-cum-Managing Director (CMD) of Coal India Limited in 2023."
+    },
+    {
+      "question": "90. Chitrakote Falls, often called the 'Niagara Falls of India', is located on which river?",
+      "options": ["Mahanadi", "Indravati", "Hasdeo", "Arpa"],
+      "answer": 1,
+      "explanation": "Chitrakote Falls is located on the Indravati River in the Bastar district of Chhattisgarh."
+    },
+    {
+      "question": "91. If the word 'ELECTRICAL' is coded as 'FMfDUrJDBM', how is 'POWER' coded?",
+      "options": ["QPXFS", "QPFXS", "RQXGT", "ONVDQ"],
+      "answer": 0,
+      "explanation": "The logic is to move each letter one step forward (+1) in the alphabet. P+1=Q, O+1=P, W+1=X, E+1=F, R+1=S."
+    },
+    {
+      "question": "92. A train 150 meters long passes a pole in 15 seconds. What is the speed of the train in km/hr?",
+      "options": ["30 km/hr", "36 km/hr", "45 km/hr", "50 km/hr"],
+      "answer": 1,
+      "explanation": "Speed = Distance / Time = 150/15 = 10 m/s. To convert to km/hr: 10 × (18/5) = 36 km/hr."
+    },
+    {
+      "question": "93. Pointing to a man, a woman said, 'He is the only son of my mother's mother.' How is the man related to the woman?",
+      "options": ["Father", "Uncle (Maternal)", "Brother", "Cousin"],
+      "answer": 1,
+      "explanation": "Mother's mother is the grandmother. Her only son is the woman's maternal uncle (Mama)."
+    },
+    {
+      "question": "94. If 15% of a number is 45, what is 20% of that number?",
+      "options": ["50", "60", "75", "90"],
+      "answer": 1,
+      "explanation": "15% = 45 → 1% = 3 → 100% = 300. 20% of 300 = 60."
+    },
+    {
+      "question": "95. Complete the series: 5, 11, 23, 47, ?",
+      "options": ["94", "95", "96", "99"],
+      "answer": 1,
+      "explanation": "The pattern is (Number × 2) + 1. (5×2)+1=11; (11×2)+1=23; (23×2)+1=47; (47×2)+1=95."
+    },
+    {
+      "question": "96. Which number will replace the question mark? 16 : 64 :: 49 : ?",
+      "options": ["81", "100", "343", "256"],
+      "answer": 2,
+      "explanation": "The relationship is x² : x³. 4² : 4³ (16:64). Similarly, 7² : 7³ (49:343)."
+    },
+    {
+      "question": "97. A man walks 5 km East, then turns South and walks 12 km. How far is he from his starting point?",
+      "options": ["13 km", "17 km", "7 km", "15 km"],
+      "answer": 0,
+      "explanation": "Using Pythagoras theorem: √(5² + 12²) = √(25 + 144) = √169 = 13 km."
+    },
+    {
+      "question": "98. Find the average of first five prime numbers.",
+      "options": ["5.0", "5.6", "6.2", "4.8"],
+      "answer": 1,
+      "explanation": "First five prime numbers: 2, 3, 5, 7, 11. Sum = 28. Average = 28/5 = 5.6."
+    },
+    {
+      "question": "99. In a certain code, 'RAIN' is written as '8$#6' and 'MORE' is written as '7%8@'. How is 'REMAIN' written?",
+      "options": ["8@7$#6", "8@7%#6", "8#7$@6", "8@#7$6"],
+      "answer": 0,
+      "explanation": "R=8, E=@, M=7, A=$, I=#, N=6 based on direct substitution from the given words."
+    },
+    {
+      "question": "100. Choose the word which is least like the others in the group.",
+      "options": ["Copper", "Zinc", "Silver", "Coal"],
+      "answer": 3,
+      "explanation": "Copper, Zinc, and Silver are metals; Coal is a non-metal/fossil fuel."
     }
   ]
-}
+    }
+    
 
