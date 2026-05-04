@@ -1,5 +1,5 @@
 {
-  "Attempt Test 1": [
+  "quiz1": [
     {
       "question": "1. If a DC series motor is started on no-load, what is the most likely outcome?",
       "options": ["The motor will not start", "The motor will run at a very low speed", "The motor will attain dangerously high speed", "The motor will draw excessive current and burn out"],
